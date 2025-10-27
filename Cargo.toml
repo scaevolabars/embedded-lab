@@ -1,0 +1,12 @@
+[package]
+name = "embedded-lab"
+version = "0.1.0"
+authors = ["Sergey Bars <ssbars137@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+stm32f407g-disc = "0.4.0"
+cortex-m = "0.6"
+cortex-m-rt = "0.6"
+# Panic behaviour, see https://crates.io/keywords/panic-impl for alternatives
+panic-halt = "0.2"
